@@ -1,10 +1,17 @@
 @import './scss/functions';
 @import './scss/variables';
 
+
 $new-primary: #7550FE;
 $new-secondary: #1ACA98;
 $new-grey: #F5F4F8;
 $new-info: #FFEEDA;
+$negativo: -2%;
+
+$new-position-values: (
+  -2: $negativo,
+) ;
+$position-values: map-merge($position-values, $new-position-values);
 
 $new-theme-colors: (
   'primary': $new-primary,

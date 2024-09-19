@@ -5,4 +5,26 @@
 
 p, h6, h1 {
   margin-bottom: 0px;
+}
+
+article {
+  position: relative;
+}
+
+.arrow-left {
+  width: 40px;
+  height: 40px;
+  padding: 1rem;
+  background-color: white;
+}
+
+.arrow-right {
+  width: 40px;
+  height: 40px;
+  padding: 1rem;
+  background-color: white;
+}
+
+.sub-header svg {
+  color: orange;
 }/*# sourceMappingURL=style.css.map */
