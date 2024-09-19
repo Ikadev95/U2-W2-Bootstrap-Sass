@@ -4,10 +4,13 @@
 $new-primary: #7550FE;
 $new-secondary: #1ACA98;
 $new-grey: #F5F4F8;
+$new-info: #FFEEDA;
+
 $new-theme-colors: (
   'primary': $new-primary,
   'secondary': $new-secondary,
   'grey': $new-grey,
+  'info': $new-info,
 );
 
 $theme-colors: map-merge($theme-colors, $new-theme-colors);
