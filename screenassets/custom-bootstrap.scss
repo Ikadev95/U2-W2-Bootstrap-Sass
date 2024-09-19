@@ -1,0 +1,17 @@
+@import './scss/functions';
+@import './scss/variables';
+
+$new-primary: #7550FE;
+$new-secondary: #1ACA98;
+$new-grey: #F5F4F8;
+$new-theme-colors: (
+  'primary': $new-primary,
+  'secondary': $new-secondary,
+  'grey': $new-grey,
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+
+//prima tutto lo stile modificato
+@import './scss/bootstrap.scss';
